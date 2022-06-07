@@ -9,6 +9,17 @@
 
 # initial configuration
 
+## loads environment variables from a .env file into process.env.
+
+### Usage
+
+Create a `.env` file in the root of your project:
+
+```dosini
+PORT="SERVERRUNNINGPORT EX. 8000"
+MONGODB_CNN="YOURMONGODBCONNECTION"
+```
+
 In the project directory, you can run:
 
 ### `npm install`
